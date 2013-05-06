@@ -1,0 +1,74 @@
+
+body {font-family: 'PT Sans', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    line-height: 130%;
+    background-color: #2E353F;
+}
+
+h2{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    
+}
+
+h3{
+    font-family: 'code_pro_demoregular';
+    color: #C3D83A;
+    font-size: 19px;
+    line-height: 120%;
+    letter-spacing: 1pt;
+    font-weight: lighter;
+}
+
+h3.secondaryTitle {
+    color: #F37763;
+    font-size: 30px;
+    line-height: 120%;
+}
+
+.theCode .oneForth{
+    float: left;
+    display: block;width: 215px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.wrapperWidth{ width: 900px; margin: auto; padding: 20px;}
+.upperContainer .wrapperWidth{ background: url(../images/bg_grid.png) no-repeat 20px 0px transparent }
+.upperContainer{
+    background-color: #C3D83A;
+    display: block;
+    overflow: hidden;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgb(125, 160, 36);
+}
+.upperContainer p{
+    line-height: 150%;
+    font-size: 14pt;
+    margin-top: 12px;
+}
+.upperContainer h2{font-size: 21px;}
+.centeredLogo{margin-left: -10px;}
+.centeredContent{
+    width: 410px;
+    margin: 55px auto;
+    padding: 0 10px;
+}
+.secondContainer{
+    background-color: #2E353F;
+    display: block;
+    overflow: hidden;
+    padding: 15px 0 60px;
+}
+.textBoxBorder{
+    border-right: 1px dotted;
+    padding: 10px;
+    min-height: 130px;
+    color: rgb(187, 187, 187);
+}
+.textBoxBorder p{margin-top: 20px;}
+.secondContainer .oneForth:first-child .textBoxBorder{
+    border-color: #F37763;
+    }
