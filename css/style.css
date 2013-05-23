@@ -27,6 +27,7 @@ h3.secondaryTitle {
     font-size: 30px;
     line-height: 120%;
 }
+.whiteBg{background: #fff; color: #C3D83A; text-align: center; padding: 3px 10px; margin-bottom: 20px;}
 
 .theCode .oneForth{
     float: left;
